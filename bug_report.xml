@@ -1,1 +1,23 @@
-
+<Bug_report>
+  <ID>12</ID>
+  <nickname_QA>Vas9</nickname_QA>
+  <Severety>Show-stopper</Severety>
+  <platform>
+    <Phone>Xiaomi Redmi Note7 MIUI 11.0.2.0</Phone>
+    <Android>10 QKQ1.191008.001</Android>
+    <WinApp>1.12.1.19541</WinApp>
+  </platform>
+  <TITLE>On Android, it is not possible to accept a Push notification when logging in using the Google icon</TITLE>
+  <Precondition>
+    <1>Open Winamp on desktop --> Add profile --> click on Google icon</1>
+    <2>The Android device screen is not locked</2>
+  </Precondition>
+  <Steps_to_reproduce>
+    <1>Open Winamp on desktop --> Add profile --> click on Google icon</1>
+    <2>Press Accept on the Android screen</2>
+  </Steps_to_reproduce>
+  <Expected_result>The user is logged in</Expected_result>
+  <Actual_result>The user is not logged in. The push notification remains on the Android screen</Actual_result>
+  <Attachments>link</Attachments>
+  <Data>2/06/22</Data>
+</Bug_report>
